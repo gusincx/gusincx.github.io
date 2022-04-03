@@ -101,7 +101,9 @@ theme: fluid  # 指定主题
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+
+
 deploy:
-  type: ''
-
-
+  type: git
+  repository: git@github.com:gusincx/gusincx.github.io.git
+  branch: master
